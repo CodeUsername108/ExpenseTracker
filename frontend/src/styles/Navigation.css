@@ -1,0 +1,44 @@
+.navigation {
+  font-family: "GTWalsheim";
+  font-size: 25px;
+  background-color: rgba(16, 16, 16, 0.78);;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 10px solid #a9a9a9;
+  height: 100px;
+  width: 95%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  color: #ffffff;
+  img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: 5px solid #fff;
+  }
+  li {
+    list-style: none;
+  }
+  li:hover {
+    color: #6855c7;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+  }
+  .active {
+    color: #846bff;
+  }
+  .menu-items{
+    display: flex;
+    gap: 3rem;
+  }
+  .h2{
+    font-size: 40px;
+  }
+}
+
+@font-face {
+  font-family: "GTWalsheim";
+  src: url("C:\Users\dhruv\OneDrive\Desktop\Fonts\GT-Walsheim-Medium-Oblique-Trial-BF651b7fc69eff5.otf");
+}

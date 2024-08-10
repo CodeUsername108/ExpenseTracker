@@ -1,0 +1,38 @@
+.incomes{
+  font-family: "GTWalsheim";
+  font-size: 25px;
+  background-color: rgba(16, 16, 16, 0.78);;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 10px solid #a9a9a9;
+  height: 80%;
+  width: 95%;
+  color: #ffffff;
+}
+
+.incomes-log{
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  display: flex;
+}
+
+h1, h2{
+  font-family: "GTWalsheim";
+  font-size: 35px;
+  padding-left: 15px;
+}
+
+.area{
+  display: flex;
+}
+
+@font-face {
+  font-family: "GTWalsheim";
+  src: url("C:\Users\dhruv\OneDrive\Desktop\Fonts\GT-Walsheim-Medium-Oblique-Trial-BF651b7fc69eff5.otf");
+}

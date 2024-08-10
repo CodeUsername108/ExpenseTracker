@@ -1,0 +1,42 @@
+input, .DatePicker {
+    width:100%;
+    outline: none;
+    border: 2px solid #858585;
+    height: 20px;
+    gap: 5rem;
+    font-family: 'GTWalsheim';
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+    background-color: #292929;
+    color: #eaeaea;
+    border-radius: 10px;
+    &::placeholder{
+        color: #eaeaea;
+    }
+}
+
+.form-container{
+    width:600px;
+    margin-right: 0 auto;
+    padding-left: 0px;
+}
+
+button{
+    width: 40%;
+    height: 60px;
+    font-family: 'GTWalsheim';
+    margin-left: 10px;
+    font-size: 20px;
+    background-color: #51429a;
+    color: #eaeaea;
+    border-radius: 10px;
+    outline: none;
+    border: 3px solid #eaeaea;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: 'GTWalsheim';
+    src: url("C:\Users\dhruv\OneDrive\Desktop\Fonts\GT-Walsheim-Medium-Oblique-Trial-BF651b7fc69eff5.otf");
+}

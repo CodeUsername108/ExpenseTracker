@@ -1,0 +1,30 @@
+.App-inside {
+  position: relative;
+  main{
+    flex: 1;
+    background: rgba(16, 16, 16, 0.78);
+    overflow-x: hidden;
+    &::-webkit-scrollbar{
+      width: 0;
+    }
+  }
+}
+
+.App{
+  background: rgba(16, 16, 16, 0.78);
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
